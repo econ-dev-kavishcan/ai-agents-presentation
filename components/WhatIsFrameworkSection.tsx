@@ -8,7 +8,7 @@ export const WhatIsFrameworkSection = () => {
       <div className="w-full max-w-6xl mx-auto px-8 lg:px-16">
         <FadeIn>
           <div className="mb-24">
-            <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
+            <p className="text-sm font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
               [ 03 ] Definition
             </p>
             <h2 className="text-[3.5rem] lg:text-[5rem] tracking-[-0.03em] font-serif max-w-4xl text-white!">
@@ -16,7 +16,7 @@ export const WhatIsFrameworkSection = () => {
               <span className="italic text-[#aaa]">framework?</span>
             </h2>
             <div className="mt-12 border-l border-[#333] pl-6 max-w-3xl">
-              <p className="text-2xl leading-relaxed font-serif text-[#ccc]">
+              <p className="text-3xl leading-relaxed font-serif text-[#ccc]">
                 An agent framework connects a large language model to the outside world—tools, memory, state, and other agents—while providing the scaffolding to execute multi-step tasks autonomously.
               </p>
             </div>
@@ -25,7 +25,7 @@ export const WhatIsFrameworkSection = () => {
 
         <FadeIn delay={0.2}>
           <div className="mt-32">
-            <h3 className="text-sm font-mono tracking-widest uppercase text-pastel-red-text bg-pastel-red-bg inline-block px-4 py-2 mb-12">
+            <h3 className="text-base font-mono tracking-widest uppercase text-pastel-red-text bg-pastel-red-bg inline-block px-4 py-2 mb-12">
               Without a framework, teams rebuild:
             </h3>
 
@@ -33,41 +33,41 @@ export const WhatIsFrameworkSection = () => {
 
               <div className="bg-[#111] p-8 hover:bg-[#1a1a1a] transition-colors">
                 <Layers className="text-[#888] mb-6" size={28} strokeWidth={1.5} />
-                <p className="text-3xl font-sans font-medium text-white leading-snug">
+                <p className="text-4xl font-sans font-medium text-white leading-snug">
                   Tool registration and schema management
                 </p>
               </div>
 
               <div className="bg-[#111] p-8 hover:bg-[#1a1a1a] transition-colors">
                 <Database className="text-[#888] mb-6" size={28} strokeWidth={1.5} />
-                <p className="text-3xl font-sans font-medium text-white leading-snug">
+                <p className="text-4xl font-sans font-medium text-white leading-snug">
                   Context window and memory handling
                 </p>
               </div>
 
               <div className="bg-[#111] p-8 hover:bg-[#1a1a1a] transition-colors">
                 <RefreshCcw className="text-[#888] mb-6" size={28} strokeWidth={1.5} />
-                <p className="text-3xl font-sans font-medium text-white leading-snug">
+                <p className="text-4xl font-sans font-medium text-white leading-snug">
                   Loop control, retries, and error recovery
                 </p>
               </div>
 
               <div className="bg-[#111] p-8 hover:bg-[#1a1a1a] transition-colors">
                 <Save className="text-[#888] mb-6" size={28} strokeWidth={1.5} />
-                <p className="text-3xl font-sans font-medium text-white leading-snug">
+                <p className="text-4xl font-sans font-medium text-white leading-snug">
                   State persistence and checkpointing
                 </p>
               </div>
 
               <div className="bg-[#111] p-8 hover:bg-[#1a1a1a] transition-colors">
                 <HandMetal className="text-[#888] mb-6" size={28} strokeWidth={1.5} />
-                <p className="text-3xl font-sans font-medium text-white leading-snug">
+                <p className="text-4xl font-sans font-medium text-white leading-snug">
                   Human-in-the-loop pause and resume
                 </p>
               </div>
 
               <div className="bg-[#111] p-8 flex items-center justify-center">
-                <p className="text-3xl font-serif italic text-center text-white px-4 leading-snug">
+                <p className="text-4xl font-serif italic text-center text-white px-4 leading-snug">
                   Frameworks enable you focus on capabilities, not plumbing.
                 </p>
               </div>

@@ -14,7 +14,7 @@ export const ParadigmShiftSection = () => {
         <FadeIn>
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 mb-24">
             <div className="lg:col-span-12">
-              <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
+              <p className="text-sm font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
                 [ 02 ] Comparison
               </p>
               <h2 className="text-[3.5rem] leading-none tracking-[-0.03em] font-serif">
@@ -30,18 +30,18 @@ export const ParadigmShiftSection = () => {
             <table className="w-full text-left border-collapse">
               <thead>
                 <tr className="border-b border-[#333] text-[#111]">
-                  <th className="py-4 pr-6 font-semibold text-sm tracking-wide">Capability</th>
-                  <th className="py-4 px-6 font-semibold text-sm tracking-wide">Traditional Framework</th>
-                  <th className="py-4 pl-6 font-semibold text-sm tracking-wide">Agent Framework</th>
+                  <th className="py-4 pr-6 font-semibold text-base tracking-wide">Capability</th>
+                  <th className="py-4 px-6 font-semibold text-base tracking-wide">Traditional Framework</th>
+                  <th className="py-4 pl-6 font-semibold text-base tracking-wide">Agent Framework</th>
                 </tr>
               </thead>
-              <tbody className="text-base font-sans text-[#666]">
+              <tbody className="text-lg font-sans text-[#666]">
                 <tr className="border-b border-[#e5e5e5]">
                   <td className="py-6 pr-6 font-semibold text-[#111]">Architecture</td>
                   <td className="py-6 px-6">
                     <button
                       onClick={() => setActiveImage('/2.png')}
-                      className="flex items-center gap-2 px-4 py-2 text-sm font-medium border border-[#e5e5e5] hover:border-[#333] hover:bg-white-hover transition-colors rounded-full"
+                      className="flex items-center gap-2 px-4 py-2 text-base font-medium border border-[#e5e5e5] hover:border-[#333] hover:bg-white-hover transition-colors rounded-full"
                     >
                       <Eye size={16} /> View Architecture
                     </button>
@@ -49,7 +49,7 @@ export const ParadigmShiftSection = () => {
                   <td className="py-6 pl-6">
                     <button
                       onClick={() => setActiveImage('/3.png')}
-                      className="flex items-center gap-2 px-4 py-2 text-sm font-medium border border-[#e5e5e5] hover:border-[#333] hover:bg-white-hover transition-colors rounded-full"
+                      className="flex items-center gap-2 px-4 py-2 text-base font-medium border border-[#e5e5e5] hover:border-[#333] hover:bg-white-hover transition-colors rounded-full"
                     >
                       <Eye size={16} /> View Architecture
                     </button>

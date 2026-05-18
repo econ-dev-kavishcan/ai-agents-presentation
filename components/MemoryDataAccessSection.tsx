@@ -12,7 +12,7 @@ export const MemoryDataAccessSection = () => {
       <div className="w-full max-w-6xl mx-auto px-8 lg:px-16">
         <FadeIn>
           <div className="mb-24">
-            <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
+            <p className="text-sm font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
               [ 11 ] Memory
             </p>
             <h2 className="text-[3.5rem] lg:text-[5rem] leading-none tracking-[-0.03em] font-serif max-w-4xl text-[#111]">
@@ -20,7 +20,7 @@ export const MemoryDataAccessSection = () => {
               <span className="italic text-[#666]">Data Access</span>
             </h2>
             <div className="mt-12 border-l border-[#333] pl-6 max-w-4xl">
-              <p className="text-2xl leading-relaxed font-serif text-[#444]">
+              <p className="text-3xl leading-relaxed font-serif text-[#444]">
                 How Agents Remember Information
               </p>
             </div>
@@ -31,8 +31,8 @@ export const MemoryDataAccessSection = () => {
           <FadeIn delay={0.1} className="h-full">
             <div className="bg-white p-10 hover:bg-[#fafafa] transition-colors flex flex-col h-full">
               <Clock className="text-[#888] mb-8" size={32} strokeWidth={1.5} />
-              <h3 className="text-2xl font-sans font-medium mb-4 text-[#111]">Short-Term Memory</h3>
-              <ul className="list-disc pl-6 flex flex-col gap-3 text-[#666] text-lg leading-relaxed marker:text-[#ccc]">
+              <h3 className="text-3xl font-sans font-medium mb-4 text-[#111]">Short-Term Memory</h3>
+              <ul className="list-disc pl-6 flex flex-col gap-3 text-[#666] text-xl leading-relaxed marker:text-[#ccc]">
                 <li className="pl-1">Keeps track of the current conversation and ongoing tasks</li>
                 <li className="pl-1">Uses summarization and context windows to avoid memory overload</li>
               </ul>
@@ -42,8 +42,8 @@ export const MemoryDataAccessSection = () => {
           <FadeIn delay={0.2} className="h-full">
             <div className="bg-white p-10 hover:bg-[#fafafa] transition-colors flex flex-col h-full">
               <Database className="text-[#888] mb-8" size={32} strokeWidth={1.5} />
-              <h3 className="text-2xl font-sans font-medium mb-4 text-[#111]">Long-Term Memory</h3>
-              <ul className="list-disc pl-6 flex flex-col gap-3 text-[#666] text-lg leading-relaxed marker:text-[#ccc]">
+              <h3 className="text-3xl font-sans font-medium mb-4 text-[#111]">Long-Term Memory</h3>
+              <ul className="list-disc pl-6 flex flex-col gap-3 text-[#666] text-xl leading-relaxed marker:text-[#ccc]">
                 <li className="pl-1">Stores knowledge across multiple sessions</li>
                 <li className="pl-1">Uses vector databases for semantic search and retrieval</li>
               </ul>
@@ -53,8 +53,8 @@ export const MemoryDataAccessSection = () => {
           <FadeIn delay={0.3} className="h-full">
             <div className="bg-white p-10 hover:bg-[#fafafa] transition-colors flex flex-col h-full">
               <Maximize2 className="text-[#888] mb-8" size={32} strokeWidth={1.5} />
-              <h3 className="text-2xl font-sans font-medium mb-4 text-[#111]">Large Context Windows</h3>
-              <ul className="list-disc pl-6 flex flex-col gap-3 text-[#666] text-lg leading-relaxed marker:text-[#ccc]">
+              <h3 className="text-3xl font-sans font-medium mb-4 text-[#111]">Large Context Windows</h3>
+              <ul className="list-disc pl-6 flex flex-col gap-3 text-[#666] text-xl leading-relaxed marker:text-[#ccc]">
                 <li className="pl-1">Anthropic Claude can process up to <strong className="text-[#111] font-medium">200K+ tokens</strong> of context</li>
                 <li className="pl-1">Sub-agents help manage tasks that exceed context limits</li>
               </ul>
@@ -72,7 +72,7 @@ export const MemoryDataAccessSection = () => {
               alt="Memory & Data Access"
               className="w-full max-w-5xl h-auto opacity-90 group-hover:opacity-100 transition-opacity"
             />
-            <div className="absolute bg-[#111] text-white text-xs tracking-widest uppercase px-4 py-2 font-mono bottom-8 right-8 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity">
+            <div className="absolute bg-[#111] text-white text-sm tracking-widest uppercase px-4 py-2 font-mono bottom-8 right-8 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity">
               Click to enlarge
             </div>
           </div>

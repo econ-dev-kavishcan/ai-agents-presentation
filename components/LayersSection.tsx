@@ -13,7 +13,7 @@ export const LayersSection = () => {
         <FadeIn>
           <div className="mb-24 flex flex-col md:flex-row justify-between items-end gap-12 editorial-divider pb-12">
             <div>
-              <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-6">
+              <p className="text-sm font-mono tracking-[0.2em] uppercase text-[#888] mb-6">
                 [ 05 ] Systems
               </p>
               <h2 className="text-[3.5rem] lg:text-[4.5rem] leading-none tracking-[-0.03em] font-serif">
@@ -22,7 +22,7 @@ export const LayersSection = () => {
               </h2>
             </div>
             <div className="md:w-[400px]">
-              <p className="text-xl text-[#666] leading-relaxed font-serif">
+              <p className="text-2xl text-[#666] leading-relaxed font-serif">
                 An agent is only as useful as the systems it can access. A deep dive into cognition, control, and integration.
               </p>
             </div>
@@ -35,11 +35,11 @@ export const LayersSection = () => {
               <div className="w-14 h-14 bg-pastel-red-bg text-pastel-red-text rounded-full flex items-center justify-center mb-8 transition-transform group-hover:scale-110">
                 <Brain size={24} strokeWidth={1} />
               </div>
-              <h3 className="text-2xl font-serif mb-4 pb-4 border-b border-[#e5e5e5]">Reasoning Layer</h3>
-              <p className="text-base text-[#666] mb-8">
+              <h3 className="text-3xl font-serif mb-4 pb-4 border-b border-[#e5e5e5]">Reasoning Layer</h3>
+              <p className="text-lg text-[#666] mb-8">
                 The cognitive engine (LLM) responsible for planning and high-level decision-making.
               </p>
-              <ul className="flex flex-col gap-3 text-sm text-[#666] list-none">
+              <ul className="flex flex-col gap-3 text-base text-[#666] list-none">
                 <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Chain-of-Thought Reasoning</li>
                 <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Tool Selection & Planning</li>
                 <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Response Generation</li>
@@ -52,11 +52,11 @@ export const LayersSection = () => {
               <div className="w-14 h-14 bg-pastel-blue-bg text-pastel-blue-text rounded-full flex items-center justify-center mb-8 transition-transform group-hover:scale-110">
                 <Settings size={24} strokeWidth={1} />
               </div>
-              <h3 className="text-2xl font-serif mb-4 pb-4 border-b border-[#e5e5e5]">Orchestration Layer</h3>
-              <p className="text-base text-[#666] mb-8">
+              <h3 className="text-3xl font-serif mb-4 pb-4 border-b border-[#e5e5e5]">Orchestration Layer</h3>
+              <p className="text-lg text-[#666] mb-8">
                 The framework control plane managing precise workflows, tool execution, and governance.
               </p>
-              <ul className="flex flex-col gap-3 text-sm text-[#666] list-none">
+              <ul className="flex flex-col gap-3 text-base text-[#666] list-none">
                 <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">State Management</li>
                 <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Memory Management</li>
                 <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Error Handling</li>
@@ -70,11 +70,11 @@ export const LayersSection = () => {
               <div className="w-14 h-14 bg-pastel-yellow-bg text-pastel-yellow-text rounded-full flex items-center justify-center mb-8 transition-transform group-hover:scale-110">
                 <Network size={24} strokeWidth={1} />
               </div>
-              <h3 className="text-2xl font-serif mb-4 pb-4 border-b border-[#e5e5e5]">Tool Layer</h3>
-              <p className="text-base text-[#666] mb-8">
+              <h3 className="text-3xl font-serif mb-4 pb-4 border-b border-[#e5e5e5]">Tool Layer</h3>
+              <p className="text-lg text-[#666] mb-8">
                 External integrations connecting the agent to robust databases and bespoke services.
               </p>
-              <ul className="flex flex-col gap-3 text-sm text-[#666] list-none">
+              <ul className="flex flex-col gap-3 text-base text-[#666] list-none">
                 <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">APIs & Services</li>
                 <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Databases & Vector Stores</li>
                 <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">File Systems & Code</li>
@@ -94,7 +94,7 @@ export const LayersSection = () => {
               alt="Three-Layer Agent Architecture"
               className="w-full max-w-5xl h-auto opacity-90 group-hover:opacity-100 transition-opacity"
             />
-            <div className="absolute bg-[#111] text-white text-xs tracking-widest uppercase px-4 py-2 font-mono bottom-8 right-8 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity">
+            <div className="absolute bg-[#111] text-white text-sm tracking-widest uppercase px-4 py-2 font-mono bottom-8 right-8 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity">
               Click to enlarge
             </div>
           </div>

@@ -14,7 +14,7 @@ export const SingleAgentArchitectureSection = () => {
 
           <div className="lg:col-span-5">
             <FadeIn>
-              <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
+              <p className="text-sm font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
                 [ 18 ] Architecture
               </p>
               <h2 className="text-[3.5rem] lg:text-[4.5rem] leading-none tracking-[-0.03em] font-serif mb-6 text-[#111]">
@@ -22,7 +22,7 @@ export const SingleAgentArchitectureSection = () => {
                 <span className="italic text-[#666]">Pattern</span>
               </h2>
 
-              <ul className="mt-12 flex flex-col gap-6 text-[#666] text-lg leading-relaxed list-none font-sans">
+              <ul className="mt-12 flex flex-col gap-6 text-[#666] text-xl leading-relaxed list-none font-sans">
                 <li className="flex items-start gap-4">
                   <Check className="text-[#888] mt-1 shrink-0" size={20} />
                   <span>One central LLM handles reasoning, memory, and tool usage</span>
@@ -58,7 +58,7 @@ export const SingleAgentArchitectureSection = () => {
                   alt="Single Agent Pattern"
                   className="w-full h-auto opacity-90 group-hover:opacity-100 transition-opacity mix-blend-multiply"
                 />
-                <div className="absolute bg-[#111] text-white text-xs tracking-widest uppercase px-4 py-2 font-mono bottom-8 right-8 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity">
+                <div className="absolute bg-[#111] text-white text-sm tracking-widest uppercase px-4 py-2 font-mono bottom-8 right-8 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity">
                   Click to enlarge
                 </div>
               </div>

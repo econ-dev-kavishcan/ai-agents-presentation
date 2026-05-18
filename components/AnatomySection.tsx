@@ -8,7 +8,7 @@ export const AnatomySection = () => {
       <div className="w-full max-w-6xl mx-auto px-8 lg:px-16">
         <FadeIn>
           <div className="mb-24">
-            <p className="text-xs font-mono tracking-[0.2em] uppercase text-text-tertiary mb-8 opacity-60">
+            <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8 opacity-60">
               [ 04 ] Architecture
             </p>
             <h2 className="text-[4rem] lg:text-[5.5rem] leading-[0.9] tracking-[-0.03em] font-serif max-w-3xl text-white!">

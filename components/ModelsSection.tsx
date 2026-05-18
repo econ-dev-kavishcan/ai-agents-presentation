@@ -7,7 +7,7 @@ export const ModelsSection = () => {
       <div className="w-full max-w-6xl mx-auto px-8 lg:px-16">
         <FadeIn>
           <div className="text-center mb-24">
-            <p className="text-xs font-mono tracking-[0.2em] uppercase text-text-tertiary mb-6">
+            <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-6">
               [ 13 ] Infrastructure
             </p>
             <h2 className="text-[3.5rem] lg:text-[4.5rem] leading-none tracking-[-0.03em] font-serif">
@@ -20,39 +20,39 @@ export const ModelsSection = () => {
           
           <div className="bg-[#F3F3F1] p-12 lg:p-16">
             <FadeIn delay={0.1}>
-              <h3 className="text-3xl font-serif mb-8 border-b border-border-strong inline-block pb-2">Memory Architecture</h3>
+              <h3 className="text-3xl font-serif mb-8 border-b border-[#333] inline-block pb-2">Memory Architecture</h3>
               <div className="space-y-12 mt-12">
                 <div>
-                  <h4 className="text-sm font-sans tracking-widest uppercase text-text-primary mb-3">01. Short-Term</h4>
-                  <p className="text-lg text-text-secondary">Keeps track of current tasks and conversation utilizing extreme summarization to avoid context window overload.</p>
+                  <h4 className="text-sm font-sans tracking-widest uppercase text-[#111] mb-3">01. Short-Term</h4>
+                  <p className="text-lg text-[#666]">Keeps track of current tasks and conversation utilizing extreme summarization to avoid context window overload.</p>
                 </div>
                 <div>
-                  <h4 className="text-sm font-sans tracking-widest uppercase text-text-primary mb-3">02. Long-Term</h4>
-                  <p className="text-lg text-text-secondary">Stores knowledge natively across sessions using dedicated Vector Databases for precise semantic retrieval.</p>
+                  <h4 className="text-sm font-sans tracking-widest uppercase text-[#111] mb-3">02. Long-Term</h4>
+                  <p className="text-lg text-[#666]">Stores knowledge natively across sessions using dedicated Vector Databases for precise semantic retrieval.</p>
                 </div>
                 <div>
-                  <h4 className="text-sm font-sans tracking-widest uppercase text-text-primary mb-3">03. Large Context</h4>
-                  <p className="text-lg text-text-secondary">Modern frontier models effortlessly process upwards of 200K+ tokens natively in a single pass.</p>
+                  <h4 className="text-sm font-sans tracking-widest uppercase text-[#111] mb-3">03. Large Context</h4>
+                  <p className="text-lg text-[#666]">Modern frontier models effortlessly process upwards of 200K+ tokens natively in a single pass.</p>
                 </div>
               </div>
             </FadeIn>
           </div>
 
-          <div className="bg-surface p-12 lg:p-16">
+          <div className="bg-white p-12 lg:p-16">
             <FadeIn delay={0.2}>
-              <h3 className="text-3xl font-serif mb-8 border-b border-border-strong inline-block pb-2">Model Strategy</h3>
+              <h3 className="text-3xl font-serif mb-8 border-b border-[#333] inline-block pb-2">Model Strategy</h3>
               <div className="space-y-12 mt-12">
                 <div>
-                  <h4 className="text-sm font-sans tracking-widest uppercase text-text-primary mb-3">A. Frontier Models</h4>
-                  <p className="text-lg text-text-secondary">Highly advanced reasoning and native tool-use capabilities out-of-the-box (e.g. Claude).</p>
+                  <h4 className="text-sm font-sans tracking-widest uppercase text-[#111] mb-3">A. Frontier Models</h4>
+                  <p className="text-lg text-[#666]">Highly advanced reasoning and native tool-use capabilities out-of-the-box (e.g. Claude).</p>
                 </div>
                 <div>
-                  <h4 className="text-sm font-sans tracking-widest uppercase text-text-primary mb-3">B. Local Models</h4>
-                  <p className="text-lg text-text-secondary">Executed privately for cost savings. These mandate strict error handling algorithms and timeouts.</p>
+                  <h4 className="text-sm font-sans tracking-widest uppercase text-[#111] mb-3">B. Local Models</h4>
+                  <p className="text-lg text-[#666]">Executed privately for cost savings. These mandate strict error handling algorithms and timeouts.</p>
                 </div>
                 <div>
-                  <h4 className="text-sm font-sans tracking-widest uppercase text-text-primary mb-3">C. Multi-Model</h4>
-                  <p className="text-lg text-text-secondary">Combines text, high-resolution vision, and specialized embeddings tailored for precise granular tasks.</p>
+                  <h4 className="text-sm font-sans tracking-widest uppercase text-[#111] mb-3">C. Multi-Model</h4>
+                  <p className="text-lg text-[#666]">Combines text, high-resolution vision, and specialized embeddings tailored for precise granular tasks.</p>
                 </div>
               </div>
             </FadeIn>

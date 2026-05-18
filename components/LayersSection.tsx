@@ -13,16 +13,16 @@ export const LayersSection = () => {
         <FadeIn>
           <div className="mb-24 flex flex-col md:flex-row justify-between items-end gap-12 editorial-divider pb-12">
             <div>
-              <p className="text-xs font-mono tracking-[0.2em] uppercase text-text-tertiary mb-6">
+              <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-6">
                 [ 05 ] Systems
               </p>
               <h2 className="text-[3.5rem] lg:text-[4.5rem] leading-none tracking-[-0.03em] font-serif">
                 Three-Layer Agent<br />
-                <span className="italic text-text-tertiary">Architecture</span>
+                <span className="italic text-[#888]">Architecture</span>
               </h2>
             </div>
             <div className="md:w-[400px]">
-              <p className="text-xl text-text-secondary leading-relaxed font-serif">
+              <p className="text-xl text-[#666] leading-relaxed font-serif">
                 An agent is only as useful as the systems it can access. A deep dive into cognition, control, and integration.
               </p>
             </div>
@@ -35,14 +35,14 @@ export const LayersSection = () => {
               <div className="w-14 h-14 bg-pastel-red-bg text-pastel-red-text rounded-full flex items-center justify-center mb-8 transition-transform group-hover:scale-110">
                 <Brain size={24} strokeWidth={1} />
               </div>
-              <h3 className="text-2xl font-serif mb-4 pb-4 border-b border-border-subtle">Reasoning Layer</h3>
-              <p className="text-base text-text-secondary mb-8">
+              <h3 className="text-2xl font-serif mb-4 pb-4 border-b border-[#e5e5e5]">Reasoning Layer</h3>
+              <p className="text-base text-[#666] mb-8">
                 The cognitive engine (LLM) responsible for planning and high-level decision-making.
               </p>
-              <ul className="flex flex-col gap-3 text-sm text-text-secondary list-none">
-                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-border-subtle">Chain-of-Thought Reasoning</li>
-                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-border-subtle">Tool Selection & Planning</li>
-                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-border-subtle">Response Generation</li>
+              <ul className="flex flex-col gap-3 text-sm text-[#666] list-none">
+                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Chain-of-Thought Reasoning</li>
+                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Tool Selection & Planning</li>
+                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Response Generation</li>
               </ul>
             </div>
           </FadeIn>
@@ -52,15 +52,15 @@ export const LayersSection = () => {
               <div className="w-14 h-14 bg-pastel-blue-bg text-pastel-blue-text rounded-full flex items-center justify-center mb-8 transition-transform group-hover:scale-110">
                 <Settings size={24} strokeWidth={1} />
               </div>
-              <h3 className="text-2xl font-serif mb-4 pb-4 border-b border-border-subtle">Orchestration Layer</h3>
-              <p className="text-base text-text-secondary mb-8">
+              <h3 className="text-2xl font-serif mb-4 pb-4 border-b border-[#e5e5e5]">Orchestration Layer</h3>
+              <p className="text-base text-[#666] mb-8">
                 The framework control plane managing precise workflows, tool execution, and governance.
               </p>
-              <ul className="flex flex-col gap-3 text-sm text-text-secondary list-none">
-                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-border-subtle">State Management</li>
-                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-border-subtle">Memory Management</li>
-                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-border-subtle">Error Handling</li>
-                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-border-subtle">Control Flow</li>
+              <ul className="flex flex-col gap-3 text-sm text-[#666] list-none">
+                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">State Management</li>
+                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Memory Management</li>
+                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Error Handling</li>
+                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Control Flow</li>
               </ul>
             </div>
           </FadeIn>
@@ -70,15 +70,15 @@ export const LayersSection = () => {
               <div className="w-14 h-14 bg-pastel-yellow-bg text-pastel-yellow-text rounded-full flex items-center justify-center mb-8 transition-transform group-hover:scale-110">
                 <Network size={24} strokeWidth={1} />
               </div>
-              <h3 className="text-2xl font-serif mb-4 pb-4 border-b border-border-subtle">Tool Layer</h3>
-              <p className="text-base text-text-secondary mb-8">
+              <h3 className="text-2xl font-serif mb-4 pb-4 border-b border-[#e5e5e5]">Tool Layer</h3>
+              <p className="text-base text-[#666] mb-8">
                 External integrations connecting the agent to robust databases and bespoke services.
               </p>
-              <ul className="flex flex-col gap-3 text-sm text-text-secondary list-none">
-                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-border-subtle">APIs & Services</li>
-                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-border-subtle">Databases & Vector Stores</li>
-                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-border-subtle">File Systems & Code</li>
-                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-border-subtle">MCP Servers</li>
+              <ul className="flex flex-col gap-3 text-sm text-[#666] list-none">
+                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">APIs & Services</li>
+                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">Databases & Vector Stores</li>
+                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">File Systems & Code</li>
+                <li className="pl-4 relative before:content-['—'] before:absolute before:left-0 before:text-[#e5e5e5]">MCP Servers</li>
               </ul>
             </div>
           </FadeIn>

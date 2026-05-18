@@ -17,7 +17,7 @@ export const ParadigmShiftSection = () => {
               <p className="text-xs font-mono tracking-[0.2em] uppercase text-text-tertiary mb-8">
                 [ 02 ] Comparison
               </p>
-              <h2 className="text-[3.5rem] leading-[1] tracking-[-0.03em] font-serif">
+              <h2 className="text-[3.5rem] leading-none tracking-[-0.03em] font-serif">
                 The Core<br />
                 <span className="italic text-text-tertiary">Shift</span>
               </h2>

@@ -4,14 +4,14 @@ import { FileCode, CheckCircle, XCircle, Blocks, Network } from 'lucide-react';
 
 export const ToolLayerSection = () => {
   return (
-    <section className="py-32 bg-[#FBFBFA]">
+    <section className="py-32 bg-canvas">
       <div className="w-full max-w-6xl mx-auto px-8 lg:px-16">
         <FadeIn>
           <div className="mb-24">
             <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
               [ 08 ] Deep Dive
             </p>
-            <h2 className="text-[3.5rem] lg:text-[5rem] leading-[1] tracking-[-0.03em] font-serif max-w-4xl text-[#111]">
+            <h2 className="text-[3.5rem] lg:text-[5rem] leading-none tracking-[-0.03em] font-serif max-w-4xl text-[#111]">
               The <span className="italic text-[#666]">Tool Layer</span><br />
               <span className="text-4xl lg:text-5xl text-[#888] block mt-4">(External Integrations)</span>
             </h2>
@@ -61,7 +61,7 @@ export const ToolLayerSection = () => {
               <div className="bg-[#111] p-10 lg:p-12 hover:bg-[#1a1a1a] transition-colors flex flex-col justify-between">
                 <div>
                   <Blocks className="text-[#666] mb-8" size={36} strokeWidth={1.5} />
-                  <h4 className="text-3xl font-sans font-medium mb-4 !text-white">Model Context Protocol (MCP)</h4>
+                  <h4 className="text-3xl font-sans font-medium mb-4 text-white!">Model Context Protocol (MCP)</h4>
                 </div>
                 <p className="text-[#ccc] text-lg leading-relaxed">Introduced by Anthropic, MCP is an open standard for securely connecting AI systems with external tools and data sources.</p>
               </div>
@@ -69,7 +69,7 @@ export const ToolLayerSection = () => {
               <div className="bg-[#111] p-10 lg:p-12 hover:bg-[#1a1a1a] transition-colors flex flex-col justify-between">
                 <div>
                   <Network className="text-[#666] mb-8" size={36} strokeWidth={1.5} />
-                  <h4 className="text-3xl font-sans font-medium mb-4 !text-white">Agent-to-Agent (A2A)</h4>
+                  <h4 className="text-3xl font-sans font-medium mb-4 text-white!">Agent-to-Agent (A2A)</h4>
                 </div>
                 <p className="text-[#ccc] text-lg leading-relaxed">Protocols that enable robust communication and coordination between multiple AI agents in distributed systems.</p>
               </div>

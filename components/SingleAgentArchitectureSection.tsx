@@ -17,7 +17,7 @@ export const SingleAgentArchitectureSection = () => {
               <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
                 [ 18 ] Architecture
               </p>
-              <h2 className="text-[3.5rem] lg:text-[4.5rem] leading-[1] tracking-[-0.03em] font-serif mb-6 text-[#111]">
+              <h2 className="text-[3.5rem] lg:text-[4.5rem] leading-none tracking-[-0.03em] font-serif mb-6 text-[#111]">
                 Single Agent<br />
                 <span className="italic text-[#666]">Pattern</span>
               </h2>
@@ -50,7 +50,7 @@ export const SingleAgentArchitectureSection = () => {
           <div className="lg:col-span-7">
             <FadeIn delay={0.2}>
               <div
-                className="w-full border border-[#eee] bg-[#FBFBFA] p-4 lg:p-12 cursor-pointer hover:shadow-xl transition-shadow duration-300 flex flex-col items-center justify-center relative group"
+                className="w-full border border-[#eee] bg-canvas p-4 lg:p-12 cursor-pointer hover:shadow-xl transition-shadow duration-300 flex flex-col items-center justify-center relative group"
                 onClick={() => setIsImageOpen(true)}
               >
                 <img

@@ -8,14 +8,14 @@ export const MemoryDataAccessSection = () => {
   const [isImageOpen, setIsImageOpen] = useState(false);
 
   return (
-    <section className="py-32 bg-[#FBFBFA]">
+    <section className="py-32 bg-canvas">
       <div className="w-full max-w-6xl mx-auto px-8 lg:px-16">
         <FadeIn>
           <div className="mb-24">
             <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
               [ 11 ] Memory
             </p>
-            <h2 className="text-[3.5rem] lg:text-[5rem] leading-[1] tracking-[-0.03em] font-serif max-w-4xl text-[#111]">
+            <h2 className="text-[3.5rem] lg:text-[5rem] leading-none tracking-[-0.03em] font-serif max-w-4xl text-[#111]">
               Memory &amp;<br />
               <span className="italic text-[#666]">Data Access</span>
             </h2>

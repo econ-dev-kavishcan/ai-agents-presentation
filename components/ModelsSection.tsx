@@ -10,7 +10,7 @@ export const ModelsSection = () => {
             <p className="text-xs font-mono tracking-[0.2em] uppercase text-text-tertiary mb-6">
               [ 13 ] Infrastructure
             </p>
-            <h2 className="text-[3.5rem] lg:text-[4.5rem] leading-[1] tracking-[-0.03em] font-serif">
+            <h2 className="text-[3.5rem] lg:text-[4.5rem] leading-none tracking-[-0.03em] font-serif">
               Models &amp; Memory
             </h2>
           </div>

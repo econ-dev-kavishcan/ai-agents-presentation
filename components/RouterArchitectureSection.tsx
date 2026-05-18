@@ -8,7 +8,7 @@ export const RouterArchitectureSection = () => {
   const [isImageOpen, setIsImageOpen] = useState(false);
 
   return (
-    <section className="py-32 bg-[#FBFBFA]">
+    <section className="py-32 bg-canvas">
       <div className="w-full max-w-7xl mx-auto px-8 lg:px-16">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-24 items-center">
           
@@ -37,7 +37,7 @@ export const RouterArchitectureSection = () => {
               <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
                 [ 19 ] Architecture
               </p>
-              <h2 className="text-[3.5rem] lg:text-[4.5rem] leading-[1] tracking-[-0.03em] font-serif mb-6 text-[#111]">
+              <h2 className="text-[3.5rem] lg:text-[4.5rem] leading-none tracking-[-0.03em] font-serif mb-6 text-[#111]">
                 Router Agent<br />
                 <span className="italic text-[#666]">Pattern</span>
               </h2>

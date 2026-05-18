@@ -11,7 +11,7 @@ export const FutureProofSection = () => {
           <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
             [ 14 ] Evolution
           </p>
-          <h2 className="text-[3.5rem] lg:text-[5rem] leading-[1] tracking-[-0.03em] font-serif mb-12 text-white">
+          <h2 className="text-[3.5rem] lg:text-[5rem] leading-none tracking-[-0.03em] font-serif mb-12 text-white">
             Designing <span className="italic text-[#888]">future-proof</span><br /> architectures
           </h2>
           <p className="text-xl lg:text-2xl text-[#ccc] leading-relaxed font-serif max-w-4xl mx-auto">

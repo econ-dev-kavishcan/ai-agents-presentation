@@ -4,14 +4,14 @@ import { Database, Brain, AlignLeft, AlertTriangle, Network, GitMerge, Send, Use
 
 export const OrchestrationLayerSection = () => {
   return (
-    <section className="py-32 bg-[#FBFBFA]">
+    <section className="py-32 bg-canvas">
       <div className="w-full max-w-6xl mx-auto px-8 lg:px-16">
         <FadeIn>
           <div className="mb-24">
             <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
               [ 07 ] Deep Dive
             </p>
-            <h2 className="text-[3.5rem] lg:text-[5rem] leading-[1] tracking-[-0.03em] font-serif max-w-4xl text-[#111]">
+            <h2 className="text-[3.5rem] lg:text-[5rem] leading-none tracking-[-0.03em] font-serif max-w-4xl text-[#111]">
               What is the<br />
               <span className="italic text-[#666]">Orchestration Layer?</span>
             </h2>
@@ -67,7 +67,7 @@ export const OrchestrationLayerSection = () => {
               <div className="bg-[#111] p-10 lg:p-12 hover:bg-[#1a1a1a] transition-colors flex flex-col justify-between">
                 <div>
                   <Network className="text-[#666] mb-8" size={36} strokeWidth={1.5} />
-                  <h4 className="text-3xl font-sans font-medium mb-4 !text-white">Centralized</h4>
+                  <h4 className="text-3xl font-sans font-medium mb-4 text-white!">Centralized</h4>
                 </div>
                 <p className="text-[#ccc] text-lg leading-relaxed">Single orchestrator manages all active agents and tasks.</p>
               </div>
@@ -75,7 +75,7 @@ export const OrchestrationLayerSection = () => {
               <div className="bg-[#111] p-10 lg:p-12 hover:bg-[#1a1a1a] transition-colors flex flex-col justify-between">
                 <div>
                   <GitMerge className="text-[#666] mb-8" size={36} strokeWidth={1.5} />
-                  <h4 className="text-3xl font-sans font-medium mb-4 !text-white">Hierarchical</h4>
+                  <h4 className="text-3xl font-sans font-medium mb-4 text-white!">Hierarchical</h4>
                 </div>
                 <p className="text-[#ccc] text-lg leading-relaxed">Structured planner → coordinators → executors workflow.</p>
               </div>
@@ -83,7 +83,7 @@ export const OrchestrationLayerSection = () => {
               <div className="bg-[#111] p-10 lg:p-12 hover:bg-[#1a1a1a] transition-colors flex flex-col justify-between">
                 <div>
                   <Send className="text-[#666] mb-8" size={36} strokeWidth={1.5} />
-                  <h4 className="text-3xl font-sans font-medium mb-4 !text-white">Handoff</h4>
+                  <h4 className="text-3xl font-sans font-medium mb-4 text-white!">Handoff</h4>
                 </div>
                 <p className="text-[#ccc] text-lg leading-relaxed">Agents transfer tasks dynamically based on required capabilities.</p>
               </div>
@@ -91,7 +91,7 @@ export const OrchestrationLayerSection = () => {
               <div className="bg-[#111] p-10 lg:p-12 hover:bg-[#1a1a1a] transition-colors flex flex-col justify-between">
                 <div>
                   <Users className="text-[#666] mb-8" size={36} strokeWidth={1.5} />
-                  <h4 className="text-3xl font-sans font-medium mb-4 !text-white">Group Chat</h4>
+                  <h4 className="text-3xl font-sans font-medium mb-4 text-white!">Group Chat</h4>
                 </div>
                 <p className="text-[#ccc] text-lg leading-relaxed">Multiple independent agents collaborate in shared conversations.</p>
               </div>

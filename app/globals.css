@@ -40,7 +40,6 @@ h4,
 h5,
 h6 {
   font-family: var(--font-serif);
-  color: var(--color-text-primary);
   font-weight: 500;
   line-height: 1.05;
   letter-spacing: -0.03em;

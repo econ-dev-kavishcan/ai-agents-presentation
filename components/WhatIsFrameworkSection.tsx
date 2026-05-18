@@ -11,7 +11,7 @@ export const WhatIsFrameworkSection = () => {
             <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-8">
               [ 03 ] Definition
             </p>
-            <h2 className="text-[3.5rem] lg:text-[5rem] tracking-[-0.03em] font-serif max-w-4xl !text-white">
+            <h2 className="text-[3.5rem] lg:text-[5rem] tracking-[-0.03em] font-serif max-w-4xl text-white!">
               What is an agent<br />
               <span className="italic text-[#aaa]">framework?</span>
             </h2>

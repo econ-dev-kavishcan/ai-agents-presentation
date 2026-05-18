@@ -71,7 +71,7 @@ export const AnatomySection = () => {
           {/* Orchestrator */}
           <FadeIn delay={0.3} className="md:col-span-4 h-full">
             <div className="bg-[#111] h-full p-8 lg:p-12 transition-colors hover:bg-[#1a1a1a] flex flex-col justify-between group relative overflow-hidden">
-              <div className="absolute -right-8 -bottom-12 opacity-5 pointer-events-none text-[#fff]">
+              <div className="absolute -right-8 -bottom-12 opacity-5 pointer-events-none text-white">
                 <Workflow size={240} strokeWidth={0.5} />
               </div>
               <div className="font-serif text-[5rem] lg:text-[6rem] leading-none text-[#222] group-hover:text-[#333] transition-colors mb-12 relative z-10">05</div>

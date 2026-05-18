@@ -96,7 +96,7 @@ export const ParadigmShiftSection = () => {
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4 md:p-8 bg-background/90 backdrop-blur-md">
           <button
             onClick={() => setActiveImage(null)}
-            className="absolute top-6 right-6 md:top-8 md:right-8 p-3 text-text-secondary hover:text-text-primary bg-surface border border-border-subtle rounded-full shadow-lg z-[60] flex items-center justify-center"
+            className="absolute top-6 right-6 md:top-8 md:right-8 p-3 text-text-secondary hover:text-text-primary bg-surface border border-border-subtle rounded-full shadow-lg z-60 flex items-center justify-center"
           >
             <X size={24} />
           </button>

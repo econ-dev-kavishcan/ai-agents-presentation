@@ -60,7 +60,7 @@ export const ReasoningLayerSection = () => {
         <FadeIn delay={0.4}>
           <div className="mt-24 p-12 lg:p-24 bg-[#111] text-white flex flex-col items-center justify-center text-center">
             <p className="text-xs font-mono tracking-[0.2em] uppercase text-[#888] mb-6">Example</p>
-            <p className="text-3xl lg:text-4xl leading-tight font-serif italic max-w-4xl text-[#fff]">
+            <p className="text-3xl lg:text-4xl leading-tight font-serif italic max-w-4xl text-white">
               Models like Anthropic Claude provide advanced reasoning capabilities for modern AI agents.
             </p>
           </div>

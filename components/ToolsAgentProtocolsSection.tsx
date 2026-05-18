@@ -63,13 +63,13 @@ export const ToolsAgentProtocolsSection = () => {
         </div>
 
         <FadeIn delay={0.4}>
-          <div 
+          <div
             className="w-full border border-[#eee] bg-white p-4 lg:p-12 cursor-pointer hover:shadow-xl transition-shadow duration-300 flex flex-col items-center justify-center relative group"
             onClick={() => setIsImageOpen(true)}
           >
-            <img 
-              src="/7.png" 
-              alt="Tools & Agent Protocols" 
+            <img
+              src="/7.png"
+              alt="Tools & Agent Protocols"
               className="w-full max-w-5xl h-auto opacity-90 group-hover:opacity-100 transition-opacity"
             />
             <div className="absolute bg-[#111] text-white text-xs tracking-widest uppercase px-4 py-2 font-mono bottom-8 right-8 pointer-events-none opacity-0 group-hover:opacity-100 transition-opacity">
@@ -81,11 +81,11 @@ export const ToolsAgentProtocolsSection = () => {
 
       {/* Modal Lightbox */}
       {isImageOpen && (
-        <div 
+        <div
           className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 backdrop-blur-sm p-4 lg:p-12 cursor-zoom-out"
           onClick={() => setIsImageOpen(false)}
         >
-          <button 
+          <button
             className="absolute top-8 right-8 text-white hover:text-[#ccc] transition-colors bg-white/10 p-2 rounded-full backdrop-blur-md"
             onClick={(e) => {
               e.stopPropagation();
@@ -94,10 +94,10 @@ export const ToolsAgentProtocolsSection = () => {
           >
             <X size={32} />
           </button>
-          
-          <img 
-            src="/7.png" 
-            alt="Tools & Agent Protocols" 
+
+          <img
+            src="/7.png"
+            alt="Tools & Agent Protocols"
             className="max-w-full w-auto object-contain shadow-2xl cursor-default"
             style={{ height: '80vh' }}
             onClick={(e) => e.stopPropagation()}
